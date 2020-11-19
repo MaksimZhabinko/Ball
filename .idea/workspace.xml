@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c85f1a2-9c83-4933-ba73-9bf3d51f9d0e" name="Default Changelist" comment="" />
+    <list default="true" id="8c85f1a2-9c83-4933-ba73-9bf3d51f9d0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/entity/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/entity/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/entity/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/report/BasketReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/service/BasketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/service/BasketServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/report/ReportStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/service/ServiceStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/service/ServiceStudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/report/ReportStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/service/ServiceStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/epam/service/ServiceStudentTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,9 +29,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,6 +46,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1kN9sftUVRNUucMn6FDMxBA6Duo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -52,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/by" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ServiceStudentTest">
+  <component name="RunManager" selected="JUnit.BasketServiceTest.findColorCount">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.epam.main.Main" />
       <module name="HomeWorkEpamThree" />
@@ -66,7 +90,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="m" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.epam.main.m" />
+      <module name="HomeWorkEpamThree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkEpamThree" />
       <extension name="coverage">
         <pattern>
@@ -75,13 +112,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="by.epam.service" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.service.ServiceStudentTest" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.service.BasketServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceStudentTest.facultyAndCourseSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasketServiceTest.findColorCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkEpamThree" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +127,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="by.epam.service" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.service.ServiceStudentTest" />
-      <option name="METHOD_NAME" value="facultyAndCourseSearch" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.service.BasketServiceTest" />
+      <option name="METHOD_NAME" value="findColorCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceStudentTest.facultySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasketServiceTest.findWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWorkEpamThree" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="by.epam.service" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.service.ServiceStudentTest" />
-      <option name="METHOD_NAME" value="facultySearch" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.service.BasketServiceTest" />
+      <option name="METHOD_NAME" value="findWeight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,10 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ServiceStudentTest" />
-        <item itemvalue="JUnit.ServiceStudentTest.facultyAndCourseSearch" />
-        <item itemvalue="JUnit.ServiceStudentTest.facultySearch" />
+        <item itemvalue="JUnit.BasketServiceTest.findColorCount" />
+        <item itemvalue="JUnit.BasketServiceTest" />
+        <item itemvalue="JUnit.BasketServiceTest.findWeight" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.m" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +173,11 @@
       <workItem from="1605530391188" duration="161000" />
       <workItem from="1605530569249" duration="496000" />
       <workItem from="1605531097811" duration="280000" />
+      <workItem from="1605533325340" duration="115000" />
+      <workItem from="1605538078555" duration="204000" />
+      <workItem from="1605538337159" duration="323000" />
+      <workItem from="1605540770690" duration="83000" />
+      <workItem from="1605779232892" duration="5056000" />
     </task>
     <servers />
   </component>
@@ -146,29 +189,61 @@
       <screen x="0" y="23" width="1280" height="702" />
     </state>
     <state x="240" y="39" width="811" height="669" key="#Project_Structure/0.23.1280.702@0.23.1280.702" timestamp="1605530432087" />
-    <state width="1238" height="172" key="GridCell.Tab.0.bottom" timestamp="1605531377588">
+    <state x="453" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1605781069807">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="172" key="GridCell.Tab.0.bottom/0.23.1280.702@0.23.1280.702" timestamp="1605531377588" />
-    <state width="1238" height="172" key="GridCell.Tab.0.center" timestamp="1605531377587">
+    <state x="453" y="97" key="#com.intellij.ide.util.MemberChooser/0.23.1280.702@0.23.1280.702" timestamp="1605781069807" />
+    <state width="1238" height="172" key="GridCell.Tab.0.bottom" timestamp="1605784343205">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="172" key="GridCell.Tab.0.center/0.23.1280.702@0.23.1280.702" timestamp="1605531377587" />
-    <state width="1238" height="172" key="GridCell.Tab.0.left" timestamp="1605531377587">
+    <state width="1238" height="172" key="GridCell.Tab.0.bottom/0.23.1280.702@0.23.1280.702" timestamp="1605784343205" />
+    <state width="1238" height="172" key="GridCell.Tab.0.center" timestamp="1605784343204">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="172" key="GridCell.Tab.0.left/0.23.1280.702@0.23.1280.702" timestamp="1605531377587" />
-    <state width="1238" height="172" key="GridCell.Tab.0.right" timestamp="1605531377588">
+    <state width="1238" height="172" key="GridCell.Tab.0.center/0.23.1280.702@0.23.1280.702" timestamp="1605784343204" />
+    <state width="1238" height="172" key="GridCell.Tab.0.left" timestamp="1605784343203">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="172" key="GridCell.Tab.0.right/0.23.1280.702@0.23.1280.702" timestamp="1605531377588" />
+    <state width="1238" height="172" key="GridCell.Tab.0.left/0.23.1280.702@0.23.1280.702" timestamp="1605784343203" />
+    <state width="1238" height="172" key="GridCell.Tab.0.right" timestamp="1605784343205">
+      <screen x="0" y="23" width="1280" height="702" />
+    </state>
+    <state width="1238" height="172" key="GridCell.Tab.0.right/0.23.1280.702@0.23.1280.702" timestamp="1605784343205" />
+    <state width="1238" height="215" key="GridCell.Tab.1.bottom" timestamp="1605782659136">
+      <screen x="0" y="23" width="1280" height="702" />
+    </state>
+    <state width="1238" height="215" key="GridCell.Tab.1.bottom/0.23.1280.702@0.23.1280.702" timestamp="1605782659136" />
+    <state width="1238" height="215" key="GridCell.Tab.1.center" timestamp="1605782659136">
+      <screen x="0" y="23" width="1280" height="702" />
+    </state>
+    <state width="1238" height="215" key="GridCell.Tab.1.center/0.23.1280.702@0.23.1280.702" timestamp="1605782659136" />
+    <state width="1238" height="215" key="GridCell.Tab.1.left" timestamp="1605782659135">
+      <screen x="0" y="23" width="1280" height="702" />
+    </state>
+    <state width="1238" height="215" key="GridCell.Tab.1.left/0.23.1280.702@0.23.1280.702" timestamp="1605782659135" />
+    <state width="1238" height="215" key="GridCell.Tab.1.right" timestamp="1605782659136">
+      <screen x="0" y="23" width="1280" height="702" />
+    </state>
+    <state width="1238" height="215" key="GridCell.Tab.1.right/0.23.1280.702@0.23.1280.702" timestamp="1605782659136" />
     <state x="128" y="23" key="SettingsEditor" timestamp="1605530529367">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
     <state x="128" y="23" key="SettingsEditor/0.23.1280.702@0.23.1280.702" timestamp="1605530529367" />
-    <state x="418" y="108" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605530693866">
+    <state x="240" y="114" key="Vcs.Push.Dialog.v2" timestamp="1605533430396">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state x="418" y="108" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.702@0.23.1280.702" timestamp="1605530693866" />
+    <state x="240" y="114" key="Vcs.Push.Dialog.v2/0.23.1280.702@0.23.1280.702" timestamp="1605533430396" />
+    <state x="317" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1605779235063">
+      <screen x="0" y="23" width="1280" height="702" />
+    </state>
+    <state x="317" y="206" key="com.intellij.ide.util.TipDialog/0.23.1280.702@0.23.1280.702" timestamp="1605779235063" />
+    <state x="418" y="108" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605783474436">
+      <screen x="0" y="23" width="1280" height="702" />
+    </state>
+    <state x="418" y="108" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.702@0.23.1280.702" timestamp="1605783474436" />
+    <state x="346" y="23" key="refactoring.ChangeSignatureDialog" timestamp="1605780743948">
+      <screen x="0" y="23" width="1280" height="702" />
+    </state>
+    <state x="346" y="23" key="refactoring.ChangeSignatureDialog/0.23.1280.702@0.23.1280.702" timestamp="1605780743948" />
   </component>
 </project>
