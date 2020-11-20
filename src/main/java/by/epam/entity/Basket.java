@@ -1,19 +1,20 @@
 package by.epam.entity;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Basket {
-    private ArrayList<Ball> balls;
+    private List<Ball> balls;
 
     public Basket() {
         this.balls = new ArrayList<>();
     }
 
-    public ArrayList<Ball> getBalls() {
+    public List<Ball> getBalls() {
         return balls;
     }
 
-    public void setBalls(ArrayList<Ball> balls) {
+    public void setBalls(List<Ball> balls) {
         this.balls = balls;
     }
 
