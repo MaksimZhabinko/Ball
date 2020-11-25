@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8c85f1a2-9c83-4933-ba73-9bf3d51f9d0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/entity/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/entity/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/service/BasketServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/service/BasketServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/entity/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/busket/entity/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/entity/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/busket/entity/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/entity/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/busket/entity/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/report/BasketReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/busket/report/BasketReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/service/BasketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/busket/service/BasketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/service/BasketServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/busket/service/BasketServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,12 +98,12 @@
       <module name="HomeWorkEpamThree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.service.*" />
+          <option name="PATTERN" value="by.epam.busket.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.epam.service" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.service.BasketServiceTest" />
+      <option name="PACKAGE_NAME" value="by.epam.busket.service" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.busket.service.BasketServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,12 +113,12 @@
       <module name="HomeWorkEpamThree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.service.*" />
+          <option name="PATTERN" value="by.epam.busket.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.epam.service" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.service.BasketServiceTest" />
+      <option name="PACKAGE_NAME" value="by.epam.busket.service" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.busket.service.BasketServiceTest" />
       <option name="METHOD_NAME" value="findColorCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -126,12 +129,12 @@
       <module name="HomeWorkEpamThree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.service.*" />
+          <option name="PATTERN" value="by.epam.busket.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="by.epam.service" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.service.BasketServiceTest" />
+      <option name="PACKAGE_NAME" value="by.epam.busket.service" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.busket.service.BasketServiceTest" />
       <option name="METHOD_NAME" value="findWeight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -167,7 +170,10 @@
       <workItem from="1605540770690" duration="83000" />
       <workItem from="1605779232892" duration="5285000" />
       <workItem from="1605889631640" duration="169000" />
-      <workItem from="1605890087035" duration="1538000" />
+      <workItem from="1605890087035" duration="1705000" />
+      <workItem from="1606038690251" duration="6000" />
+      <workItem from="1606120742417" duration="11000" />
+      <workItem from="1606293952939" duration="699000" />
     </task>
     <servers />
   </component>
@@ -183,38 +189,42 @@
       <screen x="0" y="23" width="1280" height="702" />
     </state>
     <state x="453" y="97" key="#com.intellij.ide.util.MemberChooser/0.23.1280.702@0.23.1280.702" timestamp="1605781069807" />
-    <state width="1238" height="215" key="GridCell.Tab.0.bottom" timestamp="1605891430686">
+    <state x="227" y="306" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606294525381">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="215" key="GridCell.Tab.0.bottom/0.23.1280.702@0.23.1280.702" timestamp="1605891430686" />
-    <state width="1238" height="215" key="GridCell.Tab.0.center" timestamp="1605891430684">
+    <state x="227" y="306" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.702@0.23.1280.702" timestamp="1606294525381" />
+    <state width="1238" height="215" key="GridCell.Tab.0.bottom" timestamp="1605891819016">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="215" key="GridCell.Tab.0.center/0.23.1280.702@0.23.1280.702" timestamp="1605891430684" />
-    <state width="1238" height="215" key="GridCell.Tab.0.left" timestamp="1605891430682">
+    <state width="1238" height="215" key="GridCell.Tab.0.bottom/0.23.1280.702@0.23.1280.702" timestamp="1605891819016" />
+    <state width="1238" height="215" key="GridCell.Tab.0.center" timestamp="1605891819015">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="215" key="GridCell.Tab.0.left/0.23.1280.702@0.23.1280.702" timestamp="1605891430682" />
-    <state width="1238" height="215" key="GridCell.Tab.0.right" timestamp="1605891430685">
+    <state width="1238" height="215" key="GridCell.Tab.0.center/0.23.1280.702@0.23.1280.702" timestamp="1605891819015" />
+    <state width="1238" height="215" key="GridCell.Tab.0.left" timestamp="1605891819014">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="215" key="GridCell.Tab.0.right/0.23.1280.702@0.23.1280.702" timestamp="1605891430685" />
-    <state width="1238" height="215" key="GridCell.Tab.1.bottom" timestamp="1605891430689">
+    <state width="1238" height="215" key="GridCell.Tab.0.left/0.23.1280.702@0.23.1280.702" timestamp="1605891819014" />
+    <state width="1238" height="215" key="GridCell.Tab.0.right" timestamp="1605891819015">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="215" key="GridCell.Tab.1.bottom/0.23.1280.702@0.23.1280.702" timestamp="1605891430689" />
-    <state width="1238" height="215" key="GridCell.Tab.1.center" timestamp="1605891430687">
+    <state width="1238" height="215" key="GridCell.Tab.0.right/0.23.1280.702@0.23.1280.702" timestamp="1605891819015" />
+    <state width="1238" height="215" key="GridCell.Tab.1.bottom" timestamp="1605891819018">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="215" key="GridCell.Tab.1.center/0.23.1280.702@0.23.1280.702" timestamp="1605891430687" />
-    <state width="1238" height="215" key="GridCell.Tab.1.left" timestamp="1605891430686">
+    <state width="1238" height="215" key="GridCell.Tab.1.bottom/0.23.1280.702@0.23.1280.702" timestamp="1605891819018" />
+    <state width="1238" height="215" key="GridCell.Tab.1.center" timestamp="1605891819017">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="215" key="GridCell.Tab.1.left/0.23.1280.702@0.23.1280.702" timestamp="1605891430686" />
-    <state width="1238" height="215" key="GridCell.Tab.1.right" timestamp="1605891430688">
+    <state width="1238" height="215" key="GridCell.Tab.1.center/0.23.1280.702@0.23.1280.702" timestamp="1605891819017" />
+    <state width="1238" height="215" key="GridCell.Tab.1.left" timestamp="1605891819017">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state width="1238" height="215" key="GridCell.Tab.1.right/0.23.1280.702@0.23.1280.702" timestamp="1605891430688" />
+    <state width="1238" height="215" key="GridCell.Tab.1.left/0.23.1280.702@0.23.1280.702" timestamp="1605891819017" />
+    <state width="1238" height="215" key="GridCell.Tab.1.right" timestamp="1605891819018">
+      <screen x="0" y="23" width="1280" height="702" />
+    </state>
+    <state width="1238" height="215" key="GridCell.Tab.1.right/0.23.1280.702@0.23.1280.702" timestamp="1605891819018" />
     <state x="128" y="23" key="SettingsEditor" timestamp="1605530529367">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
@@ -223,10 +233,10 @@
       <screen x="0" y="23" width="1280" height="702" />
     </state>
     <state x="240" y="114" key="Vcs.Push.Dialog.v2/0.23.1280.702@0.23.1280.702" timestamp="1605784498457" />
-    <state x="317" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1605779235063">
+    <state x="317" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1606293952015">
       <screen x="0" y="23" width="1280" height="702" />
     </state>
-    <state x="317" y="206" key="com.intellij.ide.util.TipDialog/0.23.1280.702@0.23.1280.702" timestamp="1605779235063" />
+    <state x="317" y="206" key="com.intellij.ide.util.TipDialog/0.23.1280.702@0.23.1280.702" timestamp="1606293952015" />
     <state x="418" y="108" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605784385091">
       <screen x="0" y="23" width="1280" height="702" />
     </state>

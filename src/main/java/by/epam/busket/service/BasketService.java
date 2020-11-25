@@ -1,7 +1,7 @@
-package by.epam.service;
+package by.epam.busket.service;
 
-import by.epam.entity.Basket;
-import by.epam.entity.Color;
+import by.epam.busket.entity.Basket;
+import by.epam.busket.entity.Color;
 
 import java.util.HashMap;
 import java.util.Map;

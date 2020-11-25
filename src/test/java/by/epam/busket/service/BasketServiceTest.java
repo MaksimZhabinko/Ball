@@ -1,8 +1,8 @@
-package by.epam.service;
+package by.epam.busket.service;
 
-import by.epam.entity.Ball;
-import by.epam.entity.Basket;
-import by.epam.entity.Color;
+import by.epam.busket.entity.Ball;
+import by.epam.busket.entity.Basket;
+import by.epam.busket.entity.Color;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -13,11 +13,8 @@ import static org.junit.Assert.*;
 
 public class BasketServiceTest {
 
-    private static final Basket basket = new Basket();
-    private static final BasketService service = new BasketService();
-    private double expectedForWeight = 17.5;
-    private static final Map<Color, Long> expectedForColorCount = new HashMap<>();
-    private double delta = 0.0;
+    static Basket basket = new Basket();
+    static BasketService service = new BasketService();
 
     @BeforeClass
     public static void initListOfBalls() {
@@ -28,7 +25,6 @@ public class BasketServiceTest {
         basket.add(redBall);
         basket.add(redBall2);
         basket.add(orangeBall);
-        expectedForColorCount.put(Color.RED, 2l);
     }
 
     @Test
@@ -36,14 +32,17 @@ public class BasketServiceTest {
         // When
         double actual = service.findWeight(basket);
         // Then
-        assertEquals(expectedForWeight, actual, delta);
+        assertEquals(17.5, actual, 0.0);
     }
 
     @Test
     public void findColorCount() {
+        // Given
+        Map<Color, Long> expected = new HashMap<>();
+        expected.put(Color.RED, 2l);
         // When
         Map<Color, Long> actual = service.findColorCount(Color.RED, basket);
         // Then
-        assertEquals(expectedForColorCount, actual);
+        assertEquals(expected, actual);
     }
 }

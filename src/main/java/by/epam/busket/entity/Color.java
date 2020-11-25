@@ -1,4 +1,4 @@
-package by.epam.entity;
+package by.epam.busket.entity;
 
 public enum Color {
     RED,

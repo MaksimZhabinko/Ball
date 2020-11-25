@@ -1,6 +1,6 @@
-package by.epam.report;
+package by.epam.busket.report;
 
-import by.epam.entity.Color;
+import by.epam.busket.entity.Color;
 
 import java.util.Map;
 
